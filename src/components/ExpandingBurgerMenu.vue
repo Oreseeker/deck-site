@@ -1,9 +1,6 @@
 <template>
   <div class="expanding-burger-menu">
       <burger-menu-sign @toggle-menu="menuToggled=!menuToggled"/>
-      <div class="burger-menu-content" v-show="menuToggled">
-          <a href="#" v-for="item in menuItems" :key="item"> {{ item }}</a>
-      </div>
   </div>
 </template>
 

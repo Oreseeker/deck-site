@@ -1,11 +1,17 @@
 <template>
   <section class="card">
     <img :src="cardImageSrcComputed" />
-    <div class="category">
-      <slot name="category"></slot>
-    </div>
-    <h2><slot name="header"></slot></h2>
-    <p><slot name="text"></slot></p>
+    <div class="ie-min-content">  <!-- Forcing min-content to work in IE -->
+      <div class="category">
+        <slot name="category"></slot>
+      </div>
+    </div> <!-- Forcing min-content to work in IE -->
+    <h2>
+      <slot name="header"></slot>
+    </h2>
+    <p>
+      <slot name="text"></slot>
+    </p>
   </section>
 </template>
 
@@ -19,7 +25,7 @@ export default {
   },
   computed: {
     cardImageSrcComputed() {
-      return require(`../assets/${this.cardImageSrc}`);
+      return require(`../assets/images/${this.cardImageSrc}`);
     }
   }
 };

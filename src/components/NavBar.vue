@@ -42,6 +42,8 @@ nav {
   font-size: 14px;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
   width: 100%;
 }
 nav a {
@@ -49,6 +51,6 @@ nav a {
   font-family: "Oswald", sans-serif;
   font-weight: medium;
   color: #d2d2d3;
-  margin: 0 4.4444%;
+  margin: 0.5% 4.4444%;
 }
 </style>
