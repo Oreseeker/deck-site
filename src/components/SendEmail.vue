@@ -19,12 +19,14 @@ export default {};
 input[type="text"] {
   display: block;
   font-size: 14px;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato Regular Normal", sans-serif;
+  font-weight: 400;
   width: 60%;
   box-sizing: border-box;
   padding: 1.923% 3.8461%;
   outline: none;
   border: 0;
+  color: #a5a5a7;
 }
 button {
   background-color: #ff565c;

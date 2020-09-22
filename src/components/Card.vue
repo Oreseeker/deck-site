@@ -44,13 +44,14 @@ section.card img {
   max-width: 100%;
 }
 h2 {
-  font-weight: semibold;
+  font-weight: bold;
   font-size: 1.8571em; /*26 px*/
   color: #1d1f24;
 }
 p {
   font-size: 1.2857em; /*18 px*/
   color: #6a6b6f;
+  font-weight: normal;
 }
 .category {
   position: relative;

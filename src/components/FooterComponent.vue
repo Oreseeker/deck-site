@@ -76,10 +76,6 @@ footer {
   border-top: 0;
 }
 .footer-middle {
-  /* display: flex;
-        flex-flow: row wrap;
-        align-items: center;
-        justify-content: start; */
   width: 53.4722%; /* 770px */
   box-sizing: border-box;
   padding-top: 3%;
@@ -87,26 +83,25 @@ footer {
 }
 .footer-middle a {
   display: inline-block;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald Medium Normal", sans-serif;
   font-size: 14px;
   color: white;
   text-decoration: none;
-  font-weight: medium;
   margin: 1.2987% 7.7922%;
 }
 .footer-left {
   padding: 2.7778% 5.5556% 3.3333% 2.7778%;
   box-sizing: border-box;
   width: 19.85%; /* 270px + delta */
-  font-family: "Lato", sans-serif;
+  font-family: "Lato Regular Normal", sans-serif;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
 }
 .footer-right {
   padding: 3.4722% 2.7778% 4.1667% 4.5%;
-  width: 28.3639%;
-  box-sizing: border-box;
+  width: 300px;
+  box-sizing: content-box;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
@@ -119,10 +114,11 @@ footer {
   font-size: 24px;
   font-weight: bold;
   color: #494b4f;
+  font-family: "Lato Bold Normal";
 }
 .copyright {
   font-size: 14px;
-  font-weight: regular;
+  font-weight: normal;
   color: #bbbbbd;
   margin-top: 6.9259%;
 }
@@ -133,11 +129,42 @@ footer {
   flex-flow: row nowrap;
   justify-content: flex-end;
   align-items: start;
+  font-family: "Lato Regular Normal";
 }
 .follow-links a {
   display: block;
   margin: 0 5px;
   text-decoration: none;
   color: #616366;
+}
+.send-email {
+  width: 300px;
+  height: 37px;
+}
+
+@media screen and (max-width: 980px){
+  footer {
+    flex-wrap: wrap;
+  }
+  .footer-left {
+    width: 35%;
+    padding-left: 4.5%;
+  }
+  .footer-middle {
+    width: 65%;
+  }
+  .footer-right {
+    flex-flow: row-reverse nowrap;
+    width: 100%;
+    align-items: center;
+  }
+  .follow-links {
+    margin-left: 32px;
+    margin-bottom: 0;
+  }
+  .follow-links a {
+    margin: 0;
+    margin-left: 20px;
+  }
 }
 </style>

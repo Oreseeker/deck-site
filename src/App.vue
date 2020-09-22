@@ -97,55 +97,52 @@ export default {
 </script>
 
 <style>
-@font-face {
+ /* @font-face {
   font-family: "Oswald";
   font-weight: bold;
   src: url('./assets/fonts/Oswald-Bold.ttf');
-}
-@font-face {
+} */
+/*@font-face {
   font-family: "Oswald";
-  font-weight: extralight;
+  font-weight: lighter;
   src: url('./assets/fonts/Oswald-ExtraLight.ttf');
 }
 @font-face {
   font-family: "Oswald";
-  font-weight: light;
+  font-weight: thin;
   src: url('./assets/fonts/Oswald-Light.ttf');
-}
+}*/
 @font-face {
-  font-family: "Oswald";
-  font-weight: medium;
+  font-family: "Oswald Medium Normal";
   src: url('./assets/fonts/Oswald-Medium.ttf');
 }
-@font-face {
+/*@font-face {
   font-family: "Oswald";
-  font-weight: regular;
+  font-weight: normal;
   src: url('./assets/fonts/Oswald-Regular.ttf');
 }
 @font-face {
   font-family: "Oswald";
-  font-weight: semibold;
+  font-weight: 600;
   src: url('./assets/fonts/Oswald-SemiBold.ttf');
 }
 @font-face {
   font-family: "Lato";
-  font-weight: semibold;
+  font-weight: 600;
   font-style: italic;
   src: url('./assets/fonts/Lato-SemiboldItalic.ttf');
 }
 @font-face {
   font-family: "Lato";
-  font-weight: semibold;
+  font-weight: 600;
   font-style: normal;
   src: url('./assets/fonts/Lato-Semibold.ttf');
-}
+}*/
 @font-face {
-  font-family: "Lato";
-  font-weight: regular;
-  font-style: normal;
+  font-family: "Lato Regular Normal";
   src: url('./assets/fonts/Lato-Regular.ttf');
 }
-@font-face {
+/*@font-face {
   font-family: "Lato";
   font-weight: medium;
   font-style: italic;
@@ -159,17 +156,17 @@ export default {
 }
 @font-face {
   font-family: "Lato";
-  font-weight: light;
+  font-weight: thin;
   font-style: italic;
   src: url('./assets/fonts/Lato-LightItalic.ttf');
 }
 @font-face {
   font-family: "Lato";
-  font-weight: light;
+  font-weight: thin;
   font-style: normal;
   src: url('./assets/fonts/Lato-Light.ttf');
 }
-@font-face {
+/*@font-face {
   font-family: "Lato";
   font-weight: normal;
   font-style: italic;
@@ -177,16 +174,15 @@ export default {
 }
 @font-face {
   font-family: "Lato";
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
   src: url('./assets/fonts/Lato-BoldItalic.ttf');
-}
+}*/
 @font-face {
-  font-family: "Lato";
-  font-weight: bold;
-  font-style: normal;
+  font-family: "Lato Bold Normal";
   src: url('./assets/fonts/Lato-Bold.ttf');
 }
+/*
 @font-face {
   font-family: "Lato";
   font-weight: black;
@@ -197,8 +193,8 @@ export default {
   font-family: "Lato";
   font-weight: black;
   font-style: normal;
-  src: url('./assets/fonts/Lato-Black.ttf');
-}
+  src: url('./assets/fonts/Lato-Black.ttf'); 
+}*/
 body {
   margin: 0;
 }
