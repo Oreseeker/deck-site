@@ -97,92 +97,22 @@ export default {
 </script>
 
 <style>
- /* @font-face {
-  font-family: "Oswald";
-  font-weight: bold;
-  src: url('./assets/fonts/Oswald-Bold.ttf');
-} */
-/*@font-face {
-  font-family: "Oswald";
-  font-weight: lighter;
-  src: url('./assets/fonts/Oswald-ExtraLight.ttf');
-}
 @font-face {
-  font-family: "Oswald";
-  font-weight: thin;
-  src: url('./assets/fonts/Oswald-Light.ttf');
-}*/
+  font-family: "Oswald Semibold Normal";
+  src: url("./assets/fonts/Oswald-SemiBold.ttf");
+}
 @font-face {
   font-family: "Oswald Medium Normal";
   src: url('./assets/fonts/Oswald-Medium.ttf');
 }
-/*@font-face {
-  font-family: "Oswald";
-  font-weight: normal;
-  src: url('./assets/fonts/Oswald-Regular.ttf');
-}
-@font-face {
-  font-family: "Oswald";
-  font-weight: 600;
-  src: url('./assets/fonts/Oswald-SemiBold.ttf');
-}
-@font-face {
-  font-family: "Lato";
-  font-weight: 600;
-  font-style: italic;
-  src: url('./assets/fonts/Lato-SemiboldItalic.ttf');
-}
-@font-face {
-  font-family: "Lato";
-  font-weight: 600;
-  font-style: normal;
-  src: url('./assets/fonts/Lato-Semibold.ttf');
-}*/
 @font-face {
   font-family: "Lato Regular Normal";
   src: url('./assets/fonts/Lato-Regular.ttf');
 }
-/*@font-face {
-  font-family: "Lato";
-  font-weight: medium;
-  font-style: italic;
-  src: url('./assets/fonts/Lato-MediumItalic.ttf');
-}
-@font-face {
-  font-family: "Lato";
-  font-weight: medium;
-  font-style: normal;
-  src: url('./assets/fonts/Lato-Medium.ttf');
-}
-@font-face {
-  font-family: "Lato";
-  font-weight: thin;
-  font-style: italic;
-  src: url('./assets/fonts/Lato-LightItalic.ttf');
-}
-@font-face {
-  font-family: "Lato";
-  font-weight: thin;
-  font-style: normal;
-  src: url('./assets/fonts/Lato-Light.ttf');
-}
-/*@font-face {
-  font-family: "Lato";
-  font-weight: normal;
-  font-style: italic;
-  src: url('./assets/fonts/Lato-Italic.ttf');
-}
-@font-face {
-  font-family: "Lato";
-  font-weight: 700;
-  font-style: italic;
-  src: url('./assets/fonts/Lato-BoldItalic.ttf');
-}*/
 @font-face {
   font-family: "Lato Bold Normal";
   src: url('./assets/fonts/Lato-Bold.ttf');
 }
-/*
 @font-face {
   font-family: "Lato";
   font-weight: black;
@@ -194,7 +124,7 @@ export default {
   font-weight: black;
   font-style: normal;
   src: url('./assets/fonts/Lato-Black.ttf'); 
-}*/
+}
 body {
   margin: 0;
 }
@@ -212,4 +142,15 @@ body {
   display: -ms-grid;
   -ms-grid-columns: min-content;
 }
+
+@media screen and (max-width: 980px) {
+  section.card {
+    width: 355px !important;
+    margin: 5.7292% 1.1068% !important;
+  }
+  .cards-wrapper {
+    padding: 5.0781% 0.3906% 13.7370% 0.3906%;
+  }
+}
+
 </style>

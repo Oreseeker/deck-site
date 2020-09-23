@@ -53,8 +53,7 @@ header {
   top: 50%;
   transform: translateY(-50%);
   left: 2.7778%; */
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
+  font-family: "Lato Bold Normal", sans-serif;
   font-size: 24px;
   height: 24px;
 }
@@ -69,7 +68,9 @@ header {
   margin-left: -20%;
   z-index: 30;
 }
-
+.nav-bar a {
+  font-family: "Oswald Medium Normal";
+}
 @media screen and (max-width: 1420px) {
   .nav-bar {
     position: absolute;

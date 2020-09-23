@@ -33,7 +33,7 @@ export default {
 
 <style scoped>
 section.card {
-  font-family: "lato", sans-serif;
+  font-family: "Lato Regular Normal", sans-serif;
   font-size: 14px;
   width: 432px;
   display: inline-block;
@@ -47,6 +47,7 @@ h2 {
   font-weight: bold;
   font-size: 1.8571em; /*26 px*/
   color: #1d1f24;
+  font-family: "Lato Bold Normal";
 }
 p {
   font-size: 1.2857em; /*18 px*/
@@ -63,7 +64,7 @@ p {
   margin-bottom: 52px;
   z-index: 20;
   width: min-content;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald Semibold Normal", sans-serif;
 }
 
 img {

@@ -1,31 +1,32 @@
 <template>
   <footer>
     <div class="footer-left">
-      <div class="logo">Deck<span class="highlighted-dot">.</span></div>
+      <div class="logo">
+        Deck
+        <span class="highlighted-dot">.</span>
+      </div>
       <div class="copyright">
-        © 2018 Deck <br />
-        Component based UI kit
+        © 2018 Deck
+        <br />Component based UI kit
       </div>
     </div>
     <div class="footer-middle">
-      <a href="#" v-for="item in footerMenuElements" :key="item.name">
-        {{ item.name }}</a
-      >
+      <a href="#" v-for="item in footerMenuElements" :key="item.name">{{ item.name }}</a>
     </div>
     <div class="footer-right">
       <div class="follow-links">
         Follow us:
         <a href="#">
-        <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }"/>  
+          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'instagram' }" />
         </a>
         <a href="#">
-        <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'pinterest-p' }" />
+          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'pinterest-p' }" />
         </a>
         <a href="#">
-        <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }" /> 
+          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }" />
         </a>
         <a href="#">
-        <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook-f' }" />
+          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook-f' }" />
         </a>
       </div>
       <send-email />
@@ -109,6 +110,8 @@ footer {
 .highlighted-dot {
   color: #ff565c;
   font-size: 24px;
+  display: inline-block;
+  transform: translateX(-75%);
 }
 .logo {
   font-size: 24px;
@@ -142,7 +145,7 @@ footer {
   height: 37px;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (min-width: 610px) and (max-width: 980px) {
   footer {
     flex-wrap: wrap;
   }
@@ -164,6 +167,47 @@ footer {
   }
   .follow-links a {
     margin: 0;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 610px) {
+  footer {
+    flex-flow: column nowrap !important;
+    padding-top: 44px;
+  }
+  .footer-left {
+    order: 1;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .footer-right {
+    order: 2;
+    padding-left: 20px;
+  }
+  .footer-right .follow-links {
+    order: 2;
+    margin-bottom: 0;
+    margin-top: 8.6667%;
+    justify-content: flex-start;
+  }
+  .footer-right .send-email {
+    order: 1;
+  }
+  .footer-middle {
+    order: 3;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: baseline;
+    height: 175px;
+    width: 54%;
+  }
+  .footer-middle a {
+    margin: 10px 20px;
+  }
+  .copyright {
+    margin-top: 0.9259%;
+  }
+  .follow-links a {
     margin-left: 20px;
   }
 }

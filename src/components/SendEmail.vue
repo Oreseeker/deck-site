@@ -32,7 +32,7 @@ button {
   background-color: #ff565c;
   outline: none;
   border: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald Medium Normal", sans-serif;
   width: 40%;
   box-sizing: border-box;
   padding: 3.0769% 5.7692%;
