@@ -196,7 +196,7 @@ footer {
   .footer-middle {
     order: 3;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column wrap;npm 
     align-items: baseline;
     height: 175px;
     width: 54%;
